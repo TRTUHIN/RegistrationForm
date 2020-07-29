@@ -1,0 +1,104 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #161317;
+}
+
+h1{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:olive;
+  text-align: center; 
+  text-decoration: underline;
+  margin-bottom: 45px;
+}
+form{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 14pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color:white; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+  margin:auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top:45px;
+  padding: 30px;
+}
+.lname{
+	margin-left: 15px;
+}
+
+.fname input{
+	margin-left: 47px;
+}
+.Ftname input{
+   margin-left: 20px;
+}
+.Mtname input{
+	margin-left: 12px;
+
+}
+.Datput input{
+	margin-left: 30px;
+	width: 173px;
+
+}
+.emsend input{
+	margin-left: 90px;
+}
+.nidnmbr input{
+	margin-left: 47px;
+}
+.gmfother input{
+	margin-left: 16px;
+	width: 10px;
+}
+.pssswww1 input{
+	margin-left: 65px;
+}
+.psssww2  input{
+	margin-left: 0px;
+}
+
+
+
+
+
+.btn1 {
+    outline: none;
+    background: none;
+    border: none;
+    background-color: olive;
+    color: white;
+    margin-top: 35px;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+
+/*password validation*/
+
+input {
+  border: 1px solid currentcolor;
+  
+  margin-left: 20px;
+  width: 173px;
+
+}
+input:invalid {
+  border: 2px solid red;
+}
+input:invalid:focus {
+  /*background-image: linear-gradient(pink, lightgreen);*/
+  background-color: #fae1de ;
+}
