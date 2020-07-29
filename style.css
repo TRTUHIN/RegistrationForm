@@ -22,10 +22,10 @@ form{
   font-size: 14pt; 
   font-style: normal;
   font-weight: bold;
-  text-align:; 
+   
   background-color:white; 
   border-collapse: collapse; 
-  border: 2px solid navy
+  border: 2px solid navy;
   margin:auto;
   margin-left: 300px;
   margin-right: 300px;
@@ -84,6 +84,9 @@ form{
     border-radius: 5px;
     font-weight: bolder;
 }
+
+
+
 
 
 /*password validation*/
